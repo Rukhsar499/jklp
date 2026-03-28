@@ -517,6 +517,12 @@ h2 {
     right: 20%;
     font-size: 22px;
 }
+.copy{
+    background-color: #032069;
+    padding: 10px;
+    color:#fff;
+    text-align: center;
+}
 @keyframes scroll {
   0% {
     transform: translateX(0);
