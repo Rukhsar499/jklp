@@ -511,11 +511,12 @@ h2 {
     position: relative;
     margin: 15px;
 }
-.anim{
+.anim {
     position: absolute;
     bottom: 3%;
     right: 20%;
-    font-size: 22px;
+    font-size: 18px;
+    line-height: 27px;
 }
 .copy{
     background-color: #032069;
