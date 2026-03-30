@@ -101,11 +101,13 @@ a {
     color: #B84110;
     text-shadow: 0 2px 10px rgba(182, 49, 54, 0.2);
 }
-
+.hitectop{
+    margin-top: 50px;
+}
 .hero-subtitle {
     font-size: 1.2rem;
     color: #fff;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     max-width: 600px;
 }
 
@@ -119,8 +121,8 @@ a {
     align-items: center;
     gap: 10px;
     background: #fff;
-    padding: 10px 15px;
-    border-radius: 8px;
+    padding: 10px 30px;
+   
     font-weight: 500;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     border: 1px solid var(--glass-border);
@@ -434,6 +436,7 @@ h2 {
   width: 100%;
   column-gap: 10px;
   overflow: hidden;
+  margin-top: 10px;
 }
 
 .marquee.initialized .marquee__group {
@@ -450,13 +453,13 @@ h2 {
   column-gap: 10px;
   flex-shrink: 0;
 }
-
-.marquee__group img {
-  margin-bottom: 20px;
+.gfr{
+    margin-top: -20px;
 }
 
+
 .marquee__group img {
-  width: 200px;
+  width: 100px !important;
   text-align: center;
 }
 
@@ -493,16 +496,19 @@ h2 {
   animation-direction: reverse;
 }
 .marquee__group img{
-    width: 25%;
+    /* width: 20%; */
     margin: 10px;
 }
 /* Marquee Pause Hover */
 .marquee--pause-hover.initialized:hover .marquee__group {
   animation-play-state: paused;
 }
+#partner{
+    margin-top: 70px;
+}
 .why{
     background-color: #F4F9FF;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .why-img{
     margin-top: -110px;
@@ -510,7 +516,27 @@ h2 {
 .job-imh{
     position: relative;
     margin: 15px;
+    overflow: hidden;
+     transition: 0.4s ease;
+     border-radius: 20px;
 }
+
+/* image smooth effect */
+.job-imh img{
+    width: 100%;
+    transition: transform 0.5s ease;
+}
+
+/* hover effect */
+.job-imh:hover img{
+    transform: scale(1.08);
+    border-radius: 20px;
+}
+
+/* soft shadow hover */
+/* .job-imh:hover{
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+} */
 .anim {
     position: absolute;
     bottom: 3%;
@@ -532,7 +558,30 @@ h2 {
     text-align: center;
     transition: all 0.35s ease;
 }
-
+.tab-slider .owl-nav .owl-prev span {
+    background: #BA4718;
+    display: block;
+    width: 30px !important;
+    height: 30px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50px;
+    position: absolute;
+    left: -3%;
+    top: 10%;
+}
+.tab-slider .owl-nav .owl-next span {
+    background: #BA4718;
+    display: block;
+    width: 30px !important;
+    height: 30px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 50px;
+    position: absolute;
+    right: 0px;
+    top: 10%;
+}
 /* original background */
 .prof-box{
     background-color: #c4161c09;
