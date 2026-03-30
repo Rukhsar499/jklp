@@ -579,11 +579,36 @@ h2 {
 .accordion-item {
   margin-bottom: 20px;
   border-radius: 8px;
+  border: none;
+}
+.tab-slider{
+    background-color: #f4f9ffd2;
+    padding: 50px 0px;
 }
 .accordion-button:not(.collapsed) {
     color: #000;
     background-color: #fff;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+background-color: #034DA2;
+}
+.nav-link{
+    background-color: #fff;
+    margin-right: 20px;
+    padding: 8px 18px;
+    border-radius: 8px;
     
+    /* smooth effect */
+    transition: all 0.3s ease;
+
+    /* box shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* hover pe aur acha effect */
+.nav-link:hover{
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
 }
 /* MOBILE RESPONSIVE */
 
