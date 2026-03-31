@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
-    <link rel="shortcut icon" href="img/icons/favicon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/favicon.webp" type="image/x-icon">
 </head>
 
 <body>
@@ -75,7 +75,7 @@
 
                 <div class="col-lg-5 col-md-5 col-12">
                     <div class="hero-form-wrapper float-anim" id="apply">
-                        <form class="admission-form" id="admissionForm">
+                        <form class="admission-form enquiryForm">
                             <div class="form-header">
                                 <h2>Admission Open
                                     <script>document.write(new Date().getFullYear())</script>
@@ -102,7 +102,7 @@
                                 </select>
                             </div> -->
                             <div class="form-group">
-                                <input type="text" name="course" value="BBA with Digital Marketing & Business Analytics" readonly>
+                                <input type="text" name="course" value="BBA with Digital Marketing & Business Analytics" id="course" readonly>
                             </div>
                             <div class="form-group">
                                 <input type="text" id="city" name="city" placeholder="City *" required>
@@ -1334,7 +1334,7 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="hero-form-wrapper">
-                        <form class="admission-form" id="admissionForm">
+                        <form class="admission-form enquiryForm">
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div class="form-header">
                                 <h2>Admission Open
@@ -1362,7 +1362,7 @@
                                 </select>
                             </div> -->
                             <div class="form-group">
-                                <input type="text" name="course" value="BBA with Digital Marketing & Business Analytics" readonly>
+                                <input type="text" name="course" value="BBA with Digital Marketing & Business Analytics" id="course" readonly>
                             </div>
                             <div class="form-group">
                                 <input type="text" id="city" name="city" placeholder="City *" required>
@@ -1379,9 +1379,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="assets/js/api.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 
