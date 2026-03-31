@@ -646,7 +646,18 @@ h2 {
     box-shadow: 0 7px 20px rgba(0, 0, 0, 0.089);
     border-radius: 14px;
 }
-
+.course-card {
+    position: relative;
+    padding: 30px 25px;
+    border-radius: 18px;
+    background: linear-gradient(to bottom, #f4f9ffd2 10%, #c4161c09 90%);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    height: 100%;
+    overflow: hidden;
+    transition: all .35s ease;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.06);
+}
 /* icon / text smooth effect */
 .prof-box h4,
 .prof-box1 h4 {
