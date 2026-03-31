@@ -46,14 +46,20 @@ form.addEventListener("submit", function(e) {
         ])
     })
     .then(response => response.json())
-    .then(data => {
-        alert("Form submitted successfully!");
-        form.reset();
-    })
-    .catch(error => {
-        alert("Something went wrong!");
-        console.log(error);
-    });
+.then(data => {
+
+    if (data.status == 200 || data.error == 0) {
+        window.location.href = "thankyou.html";
+    } else {
+        alert("Form submission failed!");
+        console.log(data);
+    }
+
+})
+.catch(error => {
+    alert("Something went wrong!");
+    console.log(error);
+});
 
 });
 
