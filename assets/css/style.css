@@ -212,7 +212,11 @@ a {
     border: none;
     border-radius: 6px;
 }
-
+.prof-box,.prof-box1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .btn-submit:hover {
     background: var(--tnu-red-hover);
     box-shadow: 0 6px 20px var(--accent-glow);
@@ -586,12 +590,15 @@ h2 {
     padding: 15px;
     border-radius: 10px;
 }
+.wht-text ul li{
+    padding-bottom: 10px;
+}
 .prof-box,
 .prof-box1 {
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
+    
     transition: all 0.35s ease;
 }
 
