@@ -65,7 +65,9 @@ a {
     z-index: 1;
     opacity: 0.9;
 }
-
+.secong{
+    background: linear-gradient(135deg, #00000063 0%, #000 100%), url(../img/bba-bnner.webp) left center / cover no-repeat; 
+}
 .hero-container {
     position: relative;
     z-index: 2;
@@ -189,7 +191,9 @@ a {
     outline: none;
     transition: 0.3s;
 }
-
+.vdf{
+    margin-top: 50px;
+}
 .form-group input:focus,
 .form-group select:focus {
     border-color: var(--tnu-red);
@@ -803,7 +807,7 @@ padding: 0px;
         font-size: 14px;
     }
 
-    .hero-form-wrapper {
+    #apply {
         margin-top: 40px;
     }
 
@@ -830,7 +834,7 @@ padding: 0px;
     .course {
         background-image: none;
         background-color: #034DA2;
-
+        padding: 50px 20px;
     }
 
     .prof-box,
@@ -921,5 +925,11 @@ padding: 5px 10px 5px 10px;
 .copy {
  margin-bottom: 50px;
   background-color: #BA4718;
+}
+.hero-bg {
+height: 96%;
+}
+.second{
+    margin-top: -57px;
 }
 }
