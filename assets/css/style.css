@@ -737,6 +737,9 @@ h2 {
 .modal-body{
 padding: 0px;
 }
+.hgfs{
+    margin-top: -77px;
+}
 /* MOBILE RESPONSIVE */
 
 @media(max-width:767px) {
