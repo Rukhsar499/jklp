@@ -9,7 +9,7 @@
 
     <meta name="description"
         content="A future-focused course that combines Artificial Intelligence with Animation, VFX, AR/VR, and Multimedia. It helps students build creative and technical skills for the fast-growing digital and AVGC industry.">
-     <meta name="robots" content="noindex, follow" />
+    <meta name="robots" content="noindex, follow" />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -93,8 +93,9 @@
                                 <input type="email" id="email" name="email" placeholder="Email Address *" required>
                             </div>
                             <div class="form-group">
-                                <input type="tel" id="phone" name="phone" placeholder="Mobile Number *" maxlength="10"
-                                    required>
+                                <input type="text" id="phone" name="phone" placeholder="Mobile Number *" maxlength="10"
+                                    pattern="[6-9]{1}[0-9]{9}" oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                    autocomplete="off" required>
                             </div>
                             <!-- <div class="form-group">
                                 <select id="course" name="course" required>
@@ -106,7 +107,8 @@
                                 </select>
                             </div> -->
                             <div class="form-group">
-                                <input type="text" name="course" value="B. Des in Animation & VFX with AI" id="course" readonly>
+                                <input type="text" name="course" value="B. Des in Animation & VFX with AI" id="course"
+                                    readonly>
                             </div>
                             <div class="form-group">
                                 <input type="text" id="city" name="city" placeholder="City *" required>
@@ -1304,11 +1306,13 @@
                                 <input type="email" id="email" name="email" placeholder="Email Address *" required>
                             </div>
                             <div class="form-group">
-                                <input type="tel" id="phone" name="phone" placeholder="Mobile Number *" maxlength="10"
-                                    required>
+                                <input type="text" id="phone" name="phone" placeholder="Mobile Number *" maxlength="10"
+                                    pattern="[6-9]{1}[0-9]{9}" oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                                    autocomplete="off" required>
                             </div>
-                             <div class="form-group">
-                                <input type="text" name="course" value="B. Des in Animation & VFX with AI" id="course" readonly>
+                            <div class="form-group">
+                                <input type="text" name="course" value="B. Des in Animation & VFX with AI" id="course"
+                                    readonly>
                             </div>
                             <!-- <div class="form-group">
                                 <select id="course" name="course" required>
