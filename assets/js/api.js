@@ -24,7 +24,7 @@ form.addEventListener("submit", function(e) {
                 "candidate_number": phone,
                 "email_id": email,
                 "class_name": "",
-                "college_id": 3,
+                "college_id": 5,
                 "college_name": "Jk",
                 "location": "",
                 "postal_code": "",
